@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         listing.innerHTML = `
             <h3>${year} ${make} ${model}</h3>
-            <p><strong>Price:</strong> ${price}</p>
+            <p><strong>Price:</strong> $${price}</p>
             <p>${description}</p>
         `;
 
