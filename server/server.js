@@ -25,11 +25,6 @@ app.get('/api/locations', (req, res) => {
     res.json(locationsData);
 });
 
-app.get('/api/cars/makes', (req, res) => {
-    const carsData = JSON.parse(fs.readFileSync(carsFilePath, 'utf8'));
-    res.json(carsData);
-});
-
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
