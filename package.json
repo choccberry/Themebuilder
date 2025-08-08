@@ -1,0 +1,14 @@
+{
+  "name": "car-marketplace",
+  "version": "1.0.0",
+  "description": "A multi-vendor car marketplace for the Nigerian market.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
