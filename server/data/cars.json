@@ -1,0 +1,34 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "price": 15000000,
+    "location": "Lagos",
+    "description": "A very clean, used Toyota Camry with low mileage.",
+    "image": "images/toyota-camry.jpg"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2020,
+    "price": 13500000,
+    "location": "Abuja",
+    "description": "Neatly used Honda Accord, perfect for city driving.",
+    "image": "images/honda-accord.jpg"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2022,
+    "price": 25000000,
+    "location": "Port Harcourt",
+    "description": "Foreign used Mercedes-Benz C-Class, in pristine condition.",
+    "image": "images/mercedes-c-class.jpg"
+  }
+]
+
+
+
+
+

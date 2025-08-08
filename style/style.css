@@ -12,6 +12,12 @@ header {
     text-align: center;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 main {
     padding: 1rem;
 }
@@ -59,4 +65,21 @@ main {
     border-radius: 4px;
     padding: 1rem;
     background-color: #fff;
+}
+
+#search-filter {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+#search-form input,
+#search-form select {
+    padding: 0.5rem;
 }
